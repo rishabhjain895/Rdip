@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="rdiplink" ><a href="https://serc.iiit.ac.in/rdip"><h1>RDIP</h1></a></div>
+	<a href="https://www.iiit.ac.in/">
+	<img class="logo" src="https://www.iiit.ac.in/img/iiit-new.png" alt="Logo"style="width:10%"></a>
+	<div class="navbar"><ul>
+		<li><a href="homepage.html">Home</a></li>
+		<li><a href="registration.html">Registration Form</a></li>
+	</ul></div><br>
+	<form class="myform" onsubmit="return !!(validation(this.myform)&proceed());">
+		<section id="leftlabel"><label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname" pattern="[a-zA-Z]+" required><br>
+		<br><label for="emailid">E-mail:</label>
+		<input type="text" id="emailid" name="email" required><br>
+		<br><label for="phone">Phone no:</label>
+		<input type="text" id="phone" name="phone" pattern="[^a-zA-Z]{10}" required title="Give a valid 10 digit phone number"><br>
+		<!-- GENDER : !-->
+		<br><label id="gender" for="gender">Gender:</label></section>
+
+		<section id="gen"><input type="radio" id="male" name="gender" required>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender">
+		<label for="other">Other</label><br></section>
+		<!-- REASONS !-->
+		<section id="leftlabel"><label id="reasonlabel" for="reasons">Reasons for RDIP: </label></section>
+		<div id="check"><input type="checkbox" id="html" name="cb" >
+		<label for="html">HTML</label>
+		<input type="checkbox" id="css" name="cb">
+		<label for="css">CSS</label>
+		<input type="checkbox" id="js" name="cb">
+		<label for="js">JavaScript</label></div>
+		<!-- COLLEGE !-->
+		<section id="leftlabel"><label id="collegelabel" for="college">College:</label>
+		<input type="text" id="college" name="college"><br></div>
+		<!-- DECLARATION !-->
+		<br><section id="dec"><input type="checkbox" id="declare" name="declare" required>
+		<label for="declare">I declare above details given by me are true. </label></section><br>
+		<!-- SUBMIT AND RESET !-->
+		<input id="submit" type="SUBMIT" name="Submit">
+		<input id="reset" type="RESET" name="Reset">
+	</form>
+	<script src="./script/main.js"></script>
+</body>
+</html>
