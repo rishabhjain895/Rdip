@@ -1,0 +1,32 @@
+*{
+	font-family: Verdana;
+}
+h1{
+	text-align: center;
+}
+
+#lname,#lnumber,#lemail{
+	position: absolute;
+	margin-left: 500px;
+	font-size: 25px;
+}
+
+#name,#number,#email {
+	position: absolute;
+	margin-left: 750px;
+	height: 25px;
+}
+#t2submit{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 660px;
+	border: none;
+	font-family: Verdana;
+	font-size: 25px;
+	width: 120px;
+	background-color: #ff8400;
+	color:white;
+}
+#ans1,#ans2,#ans3 {
+	margin-left: 600px;
+} 
