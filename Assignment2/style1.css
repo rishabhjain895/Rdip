@@ -1,0 +1,29 @@
+{
+	text-align: center;
+}
+#head1{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 45px;
+}
+#op1,#op2,#op{
+	display: inline;
+	font-family: Verdana;
+	font-size: 25px;
+}
+#plus,#minus,#div,#mul,#sqrt,#percent,#absolute{
+	border: 2px solid black;
+	background-color: #3d8bf2;
+	color: white;
+	margin-top: 8px;
+	font-size: 40px;
+	width: 80px;
+}
+#plus:active,#minus:active,#div:active,#mul:active,#sqrt:active,#percent:active,#absolute:active{
+	background-color: #04387d;
+}
+#res,#result{
+	display: inline;
+	font-family: Verdana;
+	font-size: 25px;
+}
