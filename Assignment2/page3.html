@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Palindrome and Anagram</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<h2 id="head2">Enter a string to check for palindrome: </h2>
+	<input type="text" id="string" placeholder="Enter a string">
+	<button type="submit" id="palbtn" onclick="return palindromecheck(string)">Check!</button>
+	<h3 id="pal"></h3><br><br>
+
+	<h2 id="head2">Enter a string to check for anagram: </h2>
+	<input type="text" id="words" placeholder="Enter string of words"><br>
+	<input type="text" id="ana" placeholder="Enter a Word">
+	<button type="submit" id="anabtn" onclick="anagramcheck(words,ana)">Check!</button>
+	<h3 id="anagram"></h3>
+
+	<script src="main.js"></script>
+</body>
+</html> 
