@@ -1,0 +1,40 @@
+*{
+	text-align: center;
+	margin: 0px;
+}
+h1{
+	font-family: Verdana;
+	font-size: 45px;
+	background-color: #ffcc00;
+	padding: 10px;
+}
+h2{
+	font-family: Verdana;
+}
+#amount{
+	margin-top: 35px;
+	font-size: 35px;
+	font-family: Verdana;
+	width: 650px;
+}
+#fromcurrency{
+	font-size: 35px;
+	font-family: Verdana;
+	width: 650px;
+}
+#tocurrency{
+	font-size: 35px;
+	font-family: Verdana;
+	width: 650px;
+}
+#currencybtn{
+	font-size: 35px;
+	padding: 10px 20px;
+	border: none;
+	color: black;
+	background-color: #ffcc00;
+}
+#currencybtn:active{
+	background-color: #a88702;
+
+} 
