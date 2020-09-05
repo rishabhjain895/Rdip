@@ -1,0 +1,79 @@
+#head1 {
+	font-family: Verdana;
+	font-weight: bold;
+	padding-left: 480px;
+	font-size: 50px;
+}
+#object1, #object2 {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 50px;
+}
+#object1 {
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 250px;
+}
+#object2 {
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 1000px;
+}
+#vs {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	padding-top: 230px;
+	padding-left: 715px;
+}
+#check{
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 550px;
+	border: 2px dashed black;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 35px;
+	color:white;
+	background-color: red;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+#check:active{
+	background-color: darkgray;
+	color: white;
+}
+#survivor {
+	position: absolute;
+	margin-left:450px;
+	margin-top:500px;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 35px;
+}
+#res {
+	color:#63e60b ;
+	position: absolute;
+	margin-left:830px;
+	margin-top:500px;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 35px;
+}
+#tb1 {
+	width: 300px;
+	font-size: 25px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 300px;
+	text-align: center;
+}
+#tb2 {
+	width: 300px;
+	font-size: 25px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 950px;
+	text-align: center;
+} 
