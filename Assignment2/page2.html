@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1>Form validation</h1><br>
+	<form class="form">
+		<label id="lname" for id="name">NAME : </label>
+		<input type="text" id="name"><br><br>
+		<label id="lnumber" for id="numebr">Phone number :</label>
+		<input type="text" id="number"><br><br>
+		<label id="lemail" for id="email">Email :</label>
+		<input type="text" id="email"><br>
+		<button type="submit" id="t2submit" onclick="return !!((document.getElementById('ans1').innerHTML = validatename()) & (document.getElementById('ans2').innerHTML = validatenumber()) & (document.getElementById('ans3').innerHTML = validateemail()))">Submit</button>
+	</form>
+	<br><br><br><br>
+	<br><h2 id="ans1"></h2>
+	<h2 id="ans2"></h2>
+	<h2 id="ans3"></h2>
+	<script src="main.js"></script>
+</body>
+</html> 
