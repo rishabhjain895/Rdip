@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<h1 id="head1">Simple Calculator</h1>
+	<input type="number" id="op1" name="op1" placeholder="0">
+	<p id="op">operand</p>
+	<input type="number" id="op2" name="op1" placeholder="0"><br><br>
+	<button id="plus" onclick="document.getElementById('res').value = add();">+</button><br>
+	<button id="minus" onclick="document.getElementById('res').value = sub();">-</button><br>
+	<button id="mul" onclick="document.getElementById('res').value = mul();">x</button><br>
+	<button id="div" onclick="document.getElementById('res').value = div();">/</button><br>
+	<button id="percent" onclick="document.getElementById('res').value = percentage();">%</button><br>
+	<button id="absolute" onclick="document.getElementById('res').value = absolute();">abs</button><br>
+	<button id="sqrt" onclick="document.getElementById('res').value = squareroot();">√</button><br><br>
+	<h2 id="result">Result is:</h2>
+	<input type="number" id="res" name="res" readonly>
+	<script src="main.js"></script>
+</body>
+</html> 
